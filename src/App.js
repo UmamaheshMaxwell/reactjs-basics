@@ -1,18 +1,66 @@
-import Greet from "./1.components/1.function/Greet";
-import { Named } from "./1.components/1.function/Named";
-import { NamedClass } from "./1.components/2.class/NamedClass";
-import Welcome from "./1.components/2.class/Welcome";
+// import Greet from "./1.components/1.function/Greet";
+// import { Named } from "./1.components/1.function/Named";
+// import { NamedClass } from "./1.components/2.class/NamedClass";
+// // import Welcome from "./1.components/2.class/Welcome";
+// import Hello from "./2.jsx/Hello";
+// import Greeting from "./3.props/Greeting";
+// import Welcome from "./3.props/Welcome";
+// import Counter from "./4.state/Counter";
+// import Message from "./4.state/Message";
+// import Person from "./4.state/Person";
+// import ClassClick from "./5.event-handling/ClassClick";
+// import EventBind from "./5.event-handling/EventBind";
+// import FunctionClick from "./5.event-handling/FunctionClick";
+// import Parent from "./6.parent-child/Parent";
+// import UserGreeting from "./7.conditional-rendering/UserGreeting";
+// import UserGreetingOne from "./7.conditional-rendering/UserGreetingOne";
+// import UserGreetingThree from "./7.conditional-rendering/UserGreetingThree";
+// import UserGreetingTwo from "./7.conditional-rendering/UserGreetingTwo";
+
+import NameList from "./8.list-rendering/NameList";
+import NameListOne from "./8.list-rendering/NameListOne";
+import NameListThree from "./8.list-rendering/NameListThree";
+import NameListTwo from "./8.list-rendering/NameListTwo";
 
 function App() {
   return (
     <div className="container">
         <h1>Welcome to ReactJS</h1>
-        <Greet />
+        <NameListThree />
+        <br /><br />
+        <NameListTwo />
+        <br /><br />
+        <NameListOne />
+        <br /><br />
+        <NameList />
+        {/* <UserGreetingThree />
+        <UserGreetingTwo />
+        <UserGreetingOne />
+        <UserGreeting /> */}
+        {/* <Parent /> */}
+        {/* <EventBind /> <br />
+        <ClassClick /> <br />
+        <FunctionClick /> */}
+        {/* <Person /> */}
+        {/* <Message /> */}
+        {/* <Counter /> */}
+        {/* <Welcome name="Uma" skill="JavaScript" />
+        <Welcome name="Mahesh" skill="Python">
+          <p>He is good with Python</p>
+        </Welcome> */}
+        {/* <Greeting name="Uma" skill="JavaScript" /> */}
+        {/* <Greeting name="Scott" skill="Srum Master">
+          <p>This is message for Scott</p>
+        </Greeting>
+        <Greeting name="Adam" skill="Business Analyst"/>
+        <Greeting name="Tuan" skill="Tech Lead"/> */}
+        {/* <Hello /> */}
+        {/* <Greet />
         <Greet />
         <Greet />
         <Named />
         <Welcome />
-        <NamedClass />
+        <NamedClass /> */}
     </div>
   );
 }
