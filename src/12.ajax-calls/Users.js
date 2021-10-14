@@ -11,12 +11,12 @@ export class Users extends Component {
     }
 
     componentDidMount(){
-        // fetch(`https://jsonplaceholder.typicode.com/todos`)
-        // .then(response => response.json())
-        // .then((data) => this.setState({todos: data}))
+        fetch(`https://jsonplaceholder.typicode.com/users`)
+        .then(response => response.json())
+        .then((data) => this.setState({users: data}))
 
-        axios(`https://jsonplaceholder.typicode.com/users`)
-        .then(response => this.setState({users: response.data}))
+        // axios(`https://jsonplaceholder.typicode.com/users`)
+        // .then(response => this.setState({users: response.data}))
     }
 
     render() {

@@ -29,14 +29,16 @@
 // import FormOne from "./10.form-handling/FormOne";
 // import LifeCycleA from "./11.life-cycle-methods/LifeCycleA";
 // import TodosOne from "./12.ajax-calls/TodoOne";
-import TodosTwo from "./12.ajax-calls/TodoTwo";
-import Users from "./12.ajax-calls/Users";
+import Student from "./12.ajax-calls/Student";
+// import TodosTwo from "./12.ajax-calls/TodoTwo";
+// import Users from "./12.ajax-calls/Users";
 // import Todos from "./12.ajax-calls/Todos";
 
 function App() {
   return (
     <div className="container">
-        <Users />
+        <Student />
+        {/* <Users /> */}
         {/* <TodosTwo /> */}
         {/* <TodosOne /> */}
         {/* <Todos /> */}
