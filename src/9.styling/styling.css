@@ -1,0 +1,15 @@
+.primary {
+    color: orange;
+}
+
+.success {
+    color: greenyellow;
+}
+
+.error {
+    color:red
+}
+
+.enlarge-text {
+    font-size: 72px;
+}

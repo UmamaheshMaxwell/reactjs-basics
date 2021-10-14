@@ -127,9 +127,9 @@ constructor - A special function that will get called whenever
          In our component we have access to this.props only after 
          we initially called super passing the props 
       2. This is the only place where we change or set the state directly 
-         overwriting thi.state fields 
+         overwriting this.state fields 
 
-static getDerivedStrateFromProps
+static getDerivedStateFromProps
 ----------------------------------
 Method is called every time a component is re-rendered
 
@@ -153,7 +153,7 @@ componentDidMount
 
 Updating
 ----------
-When a compoenent is being re-rendered as a result of changes to either its 
+When a component is being re-rendered as a result of changes to either its 
 props or state
 
 LifeCycle Methods 
@@ -179,7 +179,7 @@ or in the constructor of any child component
 
 LifeCycle Methods 
 ------------------
--> static getDerivedFromErrpr
+-> static getDerivedFromError
 -> componentDidCatch
 
 
